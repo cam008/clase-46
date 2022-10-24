@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    
+    <script src="./js/juego.js"></script>
+    <script src="./js/formulario.js"></script>
+    <script src="./js/jugador.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // La configuración de Firebase de tu aplicación werb.
+      const firebaseConfig = {
+  apiKey: "AIzaSyC4kbxdci9ztPnADtYp2pjKBtaS9fl8KDY",
+  authDomain: "autos-octubre.firebaseapp.com",
+  databaseURL: "https://autos-octubre-default-rtdb.firebaseio.com",
+  projectId: "autos-octubre",
+  storageBucket: "autos-octubre.appspot.com",
+  messagingSenderId: "704236121232",
+  appId: "1:704236121232:web:b2f250b26a1dbef0cabc15"
+};
+
+
+      //agregar aquí
+
+      // Inicia Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    
+    <script src="sketch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    border: 2px solid black;
+  }
+  .gametitle{
+    width: 85%;
+    height: 160px
+  }
+
+  .custominput{
+    width: 200px;
+    height: 30px;
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    text-align: center
+  }
+  
+  .custombutton{
+    width: 180px;
+    height: 50px;
+    background-color: blue;
+    border: 3px solid pink;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer
+  }
+
+  ::placeholder{
+    color: aqua;
+    opacity: 0.5
+  }
+
+  .welcome{
+    font-size: 40px;
+    color: blanchedalmond;
+    text-align: center
+  }
+
+  .gametitleaftereffects{
+    width: 25%;
+    height: 80px
+  }
